@@ -1,0 +1,16 @@
+# Fujifilm data and everything derived from it: never committed (Fujifilm's terms forbid redistribution)
+sources/
+targets/
+*.cube
+*.npy
+
+# Phone captures, decompiled apps, diagnostics: local only
+captures/
+reference/
+diagnostics/
+backups/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
