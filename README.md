@@ -2,6 +2,9 @@
 
 [![test](https://github.com/Sohwhat6420/android-film-simulations/actions/workflows/test.yml/badge.svg)](https://github.com/Sohwhat6420/android-film-simulations/actions/workflows/test.yml)
 ![licence: MIT](https://img.shields.io/badge/licence-MIT-blue)
+![status: one phone measured](https://img.shields.io/badge/status-one%20phone%20measured-orange)
+
+<p align="center"><img src="docs/social-preview.png" alt="Acros on a POCO X6 Pro, colour error to Fujifilm&#39;s target in ΔE2000: 25.6 doing nothing, 2.1 with one in-camera setting (Saturation −3, Contrast +1), 0.24 with an exact .cube (laptop simulation). 11 looks measured from 490 real shots." width="100%"></p>
 
 Fujifilm film simulation colours on a stock Android camera, **measured**, not eyeballed.
 
@@ -10,11 +13,11 @@ photographs colour charts on a monitor (about 490 automated shots), reads every 
 scores each look in ΔE2000 against Fujifilm's own LUTs, on colours the fit never saw. It tells you the best setting
 the phone's own camera can reach, and when the honest answer is "leave the camera alone".
 
-<img src="docs/results.svg" alt="Dot plot: for 11 Fujifilm looks on a POCO X6 Pro, colour error of doing nothing, of the best in-camera setting, and of an exact .cube. Acros falls from 25.6 to 2.1 with a setting; the exact .cube tier lands at 0.18 to 0.39 for every look." width="100%">
+### Quick start (Python 3.11+, no phone needed)
 
 ```bash
 pip install -r pilot/requirements.txt
-python pilot/tests/smoke_test.py      # offline: no phone, monitor or Fujifilm files needed
+python -X utf8 pilot/tests/smoke_test.py   # offline: no phone, monitor or Fujifilm files needed
 python pilot/scripts/charts.py --page dense_v   # draws a held-out test chart into pilot/charts/
 ```
 
@@ -29,6 +32,8 @@ python pilot/scripts/charts.py --page dense_v   # draws a held-out test chart in
 > P30 Pro come next. The exact `.cube` tier is a laptop simulation until it is tested on the phone.
 
 ## Results so far (POCO X6 Pro pilot)
+
+<img src="docs/results.svg" alt="Dot plot: for 11 Fujifilm looks on a POCO X6 Pro, colour error of doing nothing, of the best in-camera setting, and of an exact .cube. Acros falls from 25.6 to 2.1 with a setting; the exact .cube tier lands at 0.18 to 0.39 for every look." width="100%">
 
 ΔE2000 against Fujifilm's target on 135 held-out test colours: under 1 is invisible, 2–3.5 is visible only side by
 side. The rig's own repeat noise is 0.18.
