@@ -1,0 +1,21 @@
+{
+  "phone": "POCO X6 Pro (Xiaomi HyperOS, stock camera)",
+  "dates": "2026-10-18/2026-10-19",
+  "shots": 490,
+  "metric": "mean CIEDE2000 against the Fujifilm target, 135 held-out colours (chart page dense_v)",
+  "rig_repeat_noise": 0.18,
+  "note": "Numbers only. No Fujifilm LUT values or targets are in this file. 'setting' was chosen from real shots only; 'cube' is a laptop simulation of the stock Gallery editor's .cube import.",
+  "looks": [
+    {"look": "Acros", "setting": "Original, Saturation -3, Contrast +1", "dE_setting": 2.07, "dE_nothing": 25.63, "dE_cube": 0.24},
+    {"look": "Eterna Bleach Bypass", "setting": "Original, Saturation -2, Contrast +2", "dE_setting": 5.11, "dE_nothing": 11.56, "dE_cube": 0.39},
+    {"look": "Classic Neg.", "setting": "Vivid, Saturation -2, Contrast 0", "dE_setting": 6.82, "dE_nothing": 8.45, "dE_cube": 0.34},
+    {"look": "Eterna", "setting": "Original, Saturation -1, Contrast -1", "dE_setting": 3.83, "dE_nothing": 5.56, "dE_cube": 0.30},
+    {"look": "Classic Chrome", "setting": "Original, Saturation -1, Contrast +1", "dE_setting": 3.07, "dE_nothing": 4.78, "dE_cube": 0.24},
+    {"look": "Pro Neg. Std", "setting": "Original, Saturation -1, Contrast 0", "dE_setting": 2.31, "dE_nothing": 3.76, "dE_cube": 0.25},
+    {"look": "Velvia", "setting": "Original, Saturation +2, Contrast +1", "dE_setting": 2.51, "dE_nothing": 3.28, "dE_cube": 0.29},
+    {"look": "Reala Ace", "setting": "leave the camera alone", "dE_setting": 4.49, "dE_nothing": 4.49, "dE_cube": 0.20},
+    {"look": "Astia", "setting": "leave the camera alone", "dE_setting": 2.52, "dE_nothing": 2.52, "dE_cube": 0.23},
+    {"look": "Pro Neg. Hi", "setting": "leave the camera alone", "dE_setting": 0.65, "dE_nothing": 0.65, "dE_cube": 0.18},
+    {"look": "Provia", "setting": "leave the camera alone", "dE_setting": 0.0, "dE_nothing": 0.0, "dE_cube": 0.01}
+  ]
+}

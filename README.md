@@ -1,14 +1,32 @@
 # Android Film Simulations
 
-Fujifilm film simulation colours on stock Android phone cameras, **measured**, not eyeballed.
+[![test](https://github.com/Sohwhat6420/android-film-simulations/actions/workflows/test.yml/badge.svg)](https://github.com/Sohwhat6420/android-film-simulations/actions/workflows/test.yml)
+![licence: MIT](https://img.shields.io/badge/licence-MIT-blue)
 
-Every look is checked against Fujifilm's own data and reported as a ΔE2000 next to two
-reference numbers: the error of doing nothing, and the measuring rig's own noise.
+Fujifilm film simulation colours on a stock Android camera, **measured**, not eyeballed.
 
-> **Status:** the method has run end to end on a POCO X6 Pro (Xiaomi HyperOS, 18–19 Oct 2026, about 490
-> automated shots). The pilot's scripts are being moved into this repository; until they are here, this repo
-> holds the method, the architecture and the results. Xiaomi 14T, Samsung Galaxy S24 Ultra and Huawei P30 Pro
-> come next.
+**Why it's interesting:** film-look presets online are judged by eye. This pipeline drives the phone over adb,
+photographs colour charts on a monitor (about 490 automated shots), reads every patch through ArUco markers and
+scores each look in ΔE2000 against Fujifilm's own LUTs, on colours the fit never saw. It tells you the best setting
+the phone's own camera can reach, and when the honest answer is "leave the camera alone".
+
+<img src="docs/results.svg" alt="Dot plot: for 11 Fujifilm looks on a POCO X6 Pro, colour error of doing nothing, of the best in-camera setting, and of an exact .cube. Acros falls from 25.6 to 2.1 with a setting; the exact .cube tier lands at 0.18 to 0.39 for every look." width="100%">
+
+```bash
+pip install -r pilot/requirements.txt
+python pilot/tests/smoke_test.py      # offline: no phone, monitor or Fujifilm files needed
+python pilot/scripts/charts.py --page dense_v   # draws a held-out test chart into pilot/charts/
+```
+
+<details><summary>Smoke test output (7 checks, about 4 s)</summary>
+
+<img src="docs/test-run.svg" alt="Terminal: 7 of 7 smoke checks pass, including reading a warped, blurred, noisy chart photo at 0.23 mean ΔE2000 and inverting a synthetic 3D LUT" width="100%">
+
+</details>
+
+> **Status:** the method has run end to end on one phone, a POCO X6 Pro (Xiaomi HyperOS, 18–19 Oct 2026). The
+> pilot's scripts are in [`pilot/`](pilot) exactly as they ran. Xiaomi 14T, Samsung Galaxy S24 Ultra and Huawei
+> P30 Pro come next. The exact `.cube` tier is a laptop simulation until it is tested on the phone.
 
 ## Results so far (POCO X6 Pro pilot)
 
@@ -62,7 +80,15 @@ No Fujifilm-derived data is committed here.
 3. Effects are learnt on two chart pages and scored on a third page of colours the fit never saw.
 4. The fitted model only ranks candidates. Every published number comes from real photos.
 
-See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for the full pipeline.
+See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for the full pipeline and [pilot/METHOD.md](pilot/METHOD.md) for
+the step-by-step procedure. The numbers above are also in [pilot/results/poco-x6-pro.json](pilot/results/poco-x6-pro.json)
+(numbers only, no Fujifilm data); `pilot/scripts/results_svg.py` draws the chart from it.
+
+## Running the full pipeline
+
+You need a phone with Wireless debugging on, a monitor, and Fujifilm's free F-Log2 LUT pack downloaded into
+`pilot/sources/` (never committed). Set `ADB_SERIAL` to your phone's serial from `adb devices`.
+`pilot/scripts/run_pilot_chain.sh` is the order the pilot ran in; each sweep resumes from its own log.
 
 ## Licence
 

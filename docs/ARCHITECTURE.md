@@ -6,12 +6,14 @@ The README gives the idea in a page; this file is the pipeline behind it.
 ## How to read this file
 
 - **Built** means it exists and has run. **Planned** and **not built** mean exactly that.
-- Evidence is `file:line`. Every path starting `pilot/` is in the pilot's working folder,
-  `Projects/xiaomi-14t-fuji-filters/` in Ethan's Vault. Line numbers were read on 27 October 2026 and will drift.
-  `research/` is `Projects/android-film-simulations/research/`.
-- **The scripts are not in this repository yet.** This repository holds the README, the licence, this file and
-  `.gitignore`. The code below ran in the pilot on a POCO X6 Pro (Xiaomi HyperOS) and moves here when the pilot is
-  tidied for release. Nothing has run on a second phone.
+- Evidence is `file:line`. Line numbers were read on 27 October 2026.
+- **`pilot/scripts/`, `pilot/METHOD.md` and `pilot/FORMAT.md` are in this repository**, copied as they ran. Only the
+  hard-coded adb serial (now the `ADB_SERIAL` environment variable) and two comments were changed, so the line
+  numbers below still match. `pilot/tests/smoke_test.py` checks the pipeline offline.
+- `pilot/HANDOVER.md`, `pilot/PILOT-REPORT.md`, `pilot/report/` and `research/` are the pilot's working notes and
+  outputs. They are **not published**: some hold Fujifilm-derived values, others are personal notes. The citations to
+  them stay so that each claim can be traced.
+- The code ran in the pilot on a POCO X6 Pro (Xiaomi HyperOS). Nothing has run on a second phone yet.
 
 ## 1. Three rules
 

@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="540" viewBox="0 0 900 540" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-label="Colour error per Fujifilm look on a POCO X6 Pro (Xiaomi HyperOS, stock camera)">
+<rect width="900" height="540" rx="10" fill="#ffffff"/>
+<text x="24" y="34" font-size="18" font-weight="600" fill="#1f2328">How far each look lands from Fujifilm's target (ΔE2000, lower is better)</text>
+<text x="24" y="58" font-size="13" fill="#59636e">POCO X6 Pro (Xiaomi HyperOS, stock camera) · 11 looks · 490 real shots · scored on 135 colours the fit never saw</text>
+<rect x="190.0" y="80" width="55.8" height="376" fill="#eef6ee"/>
+<text x="194.0" y="76" font-size="11" fill="#2f6b34">under 1: invisible</text>
+<line x1="190.0" y1="80" x2="190.0" y2="456" stroke="#d1d9e0" stroke-width="1"/>
+<text x="190.0" y="474" font-size="12" fill="#59636e" text-anchor="middle">0</text>
+<line x1="301.7" y1="80" x2="301.7" y2="456" stroke="#d1d9e0" stroke-width="1"/>
+<text x="301.7" y="474" font-size="12" fill="#59636e" text-anchor="middle">2</text>
+<line x1="413.3" y1="80" x2="413.3" y2="456" stroke="#d1d9e0" stroke-width="1"/>
+<text x="413.3" y="474" font-size="12" fill="#59636e" text-anchor="middle">4</text>
+<line x1="525.0" y1="80" x2="525.0" y2="456" stroke="#d1d9e0" stroke-width="1"/>
+<text x="525.0" y="474" font-size="12" fill="#59636e" text-anchor="middle">6</text>
+<line x1="636.7" y1="80" x2="636.7" y2="456" stroke="#d1d9e0" stroke-width="1"/>
+<text x="636.7" y="474" font-size="12" fill="#59636e" text-anchor="middle">8</text>
+<line x1="748.3" y1="80" x2="748.3" y2="456" stroke="#d1d9e0" stroke-width="1"/>
+<text x="748.3" y="474" font-size="12" fill="#59636e" text-anchor="middle">10</text>
+<line x1="860.0" y1="80" x2="860.0" y2="456" stroke="#d1d9e0" stroke-width="1"/>
+<text x="860.0" y="474" font-size="12" fill="#59636e" text-anchor="middle">12</text>
+<text x="176" y="102" font-size="13.5" fill="#1f2328" text-anchor="end">Acros</text>
+<line x1="305.6" y1="98" x2="860.0" y2="98" stroke="#b35900" stroke-width="2" opacity="0.45"/>
+<circle cx="860.0" cy="98" r="6" fill="#ffffff" stroke="#59636e" stroke-width="2"/>
+<text x="848.0" y="89" font-size="11" fill="#59636e" text-anchor="end">25.6 →</text>
+<circle cx="305.6" cy="98" r="6" fill="#b35900"/>
+<path d="M203.4 91.5L209.9 98L203.4 104.5L196.9 98Z" fill="#0b6e63"/>
+<text x="176" y="136" font-size="13.5" fill="#1f2328" text-anchor="end">Eterna Bleach Bypass</text>
+<line x1="475.3" y1="132" x2="835.4" y2="132" stroke="#b35900" stroke-width="2" opacity="0.45"/>
+<circle cx="835.4" cy="132" r="6" fill="#ffffff" stroke="#59636e" stroke-width="2"/>
+<circle cx="475.3" cy="132" r="6" fill="#b35900"/>
+<path d="M211.8 125.5L218.3 132L211.8 138.5L205.3 132Z" fill="#0b6e63"/>
+<text x="176" y="170" font-size="13.5" fill="#1f2328" text-anchor="end">Classic Neg.</text>
+<line x1="570.8" y1="166" x2="661.8" y2="166" stroke="#b35900" stroke-width="2" opacity="0.45"/>
+<circle cx="661.8" cy="166" r="6" fill="#ffffff" stroke="#59636e" stroke-width="2"/>
+<circle cx="570.8" cy="166" r="6" fill="#b35900"/>
+<path d="M209.0 159.5L215.5 166L209.0 172.5L202.5 166Z" fill="#0b6e63"/>
+<text x="176" y="204" font-size="13.5" fill="#1f2328" text-anchor="end">Eterna</text>
+<line x1="403.8" y1="200" x2="500.4" y2="200" stroke="#b35900" stroke-width="2" opacity="0.45"/>
+<circle cx="500.4" cy="200" r="6" fill="#ffffff" stroke="#59636e" stroke-width="2"/>
+<circle cx="403.8" cy="200" r="6" fill="#b35900"/>
+<path d="M206.8 193.5L213.2 200L206.8 206.5L200.2 200Z" fill="#0b6e63"/>
+<text x="176" y="238" font-size="13.5" fill="#1f2328" text-anchor="end">Classic Chrome</text>
+<line x1="361.4" y1="234" x2="456.9" y2="234" stroke="#b35900" stroke-width="2" opacity="0.45"/>
+<circle cx="456.9" cy="234" r="6" fill="#ffffff" stroke="#59636e" stroke-width="2"/>
+<circle cx="361.4" cy="234" r="6" fill="#b35900"/>
+<path d="M203.4 227.5L209.9 234L203.4 240.5L196.9 234Z" fill="#0b6e63"/>
+<text x="176" y="272" font-size="13.5" fill="#1f2328" text-anchor="end">Pro Neg. Std</text>
+<line x1="319.0" y1="268" x2="399.9" y2="268" stroke="#b35900" stroke-width="2" opacity="0.45"/>
+<circle cx="399.9" cy="268" r="6" fill="#ffffff" stroke="#59636e" stroke-width="2"/>
+<circle cx="319.0" cy="268" r="6" fill="#b35900"/>
+<path d="M204.0 261.5L210.5 268L204.0 274.5L197.5 268Z" fill="#0b6e63"/>
+<text x="176" y="306" font-size="13.5" fill="#1f2328" text-anchor="end">Velvia</text>
+<line x1="330.1" y1="302" x2="373.1" y2="302" stroke="#b35900" stroke-width="2" opacity="0.45"/>
+<circle cx="373.1" cy="302" r="6" fill="#ffffff" stroke="#59636e" stroke-width="2"/>
+<circle cx="330.1" cy="302" r="6" fill="#b35900"/>
+<path d="M206.2 295.5L212.7 302L206.2 308.5L199.7 302Z" fill="#0b6e63"/>
+<text x="176" y="340" font-size="13.5" fill="#1f2328" text-anchor="end">Reala Ace</text>
+<circle cx="440.7" cy="336" r="6" fill="#ffffff" stroke="#59636e" stroke-width="2"/>
+<path d="M201.2 329.5L207.7 336L201.2 342.5L194.7 336Z" fill="#0b6e63"/>
+<text x="176" y="374" font-size="13.5" fill="#1f2328" text-anchor="end">Astia</text>
+<circle cx="330.7" cy="370" r="6" fill="#ffffff" stroke="#59636e" stroke-width="2"/>
+<path d="M202.8 363.5L209.3 370L202.8 376.5L196.3 370Z" fill="#0b6e63"/>
+<text x="176" y="408" font-size="13.5" fill="#1f2328" text-anchor="end">Pro Neg. Hi</text>
+<circle cx="226.3" cy="404" r="6" fill="#ffffff" stroke="#59636e" stroke-width="2"/>
+<path d="M200.1 397.5L206.6 404L200.1 410.5L193.6 404Z" fill="#0b6e63"/>
+<text x="176" y="442" font-size="13.5" fill="#1f2328" text-anchor="end">Provia</text>
+<circle cx="190.0" cy="438" r="6" fill="#ffffff" stroke="#59636e" stroke-width="2"/>
+<path d="M190.6 431.5L197.1 438L190.6 444.5L184.1 438Z" fill="#0b6e63"/>
+<text x="190" y="492" font-size="12" fill="#59636e">ΔE2000 · axis clipped at 12 · rig repeat noise 0.18</text>
+<circle cx="196" cy="514" r="6" fill="#ffffff" stroke="#59636e" stroke-width="2"/><text x="208" y="518" font-size="13" fill="#1f2328">doing nothing</text>
+<circle cx="336" cy="514" r="6" fill="#b35900"/><text x="348" y="518" font-size="13" fill="#1f2328">best in-camera setting (measured)</text>
+<path d="M601 507.5L607.5 514L601 520.5L594.5 514Z" fill="#0b6e63"/><text x="613" y="518" font-size="13" fill="#1f2328">exact .cube in the Gallery editor (simulated)</text>
+</svg>
